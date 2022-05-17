@@ -12,7 +12,7 @@ const CategoryDetails = () => {
         <div>
             <h1>Thanks for selecting this Food item: {categoryId}</h1>
             <div className='text-center mb-5 pb-5'>
-            <Link to="/checkout">
+            <Link to="/manageinventory">
                 <button onClick={handleInventories} className='btn btn-primary'>Manage Inventories</button></Link>
             </div>
         </div>
