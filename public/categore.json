@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 3456234567845,
+        "name": "Indian Spicy Mixed",
+        "price": "999",
+        "description": "hmefoodi offers a variety of Indian Mixed options, such as Fried Rice, Chicken Masala, Salmon Tacos, Shrimp & Grits, a Shrimp salad and Jumbo Shrimp. Ideal For Lunch and Dinner.",
+        "img": "https://i.ibb.co/ySBQfGQ/Spicy-Masala-Mixed.jpg"
+    },
+    {
+        "_id": 6784567893454,
+        "name": "Full Griled Chicken",
+        "price": "399",
+        "description": "If you're looking to pull out all the stops for an impressive barbecue, this grilled whole chicken is the answer. You are going to get: whole chicken that is perfectly juicy  crispy skin!",
+        "img": "https://i.ibb.co/vjm5myF/Full-griled-chicken.jpg"
+    },
+    {
+        "_id": 4567893256145,
+        "name": "Leg Pices Special",
+        "price": "599",
+        "description": "The grilled chicken at homefoodi is available from now. Tuesday is always special for all chicken lovers! Enjoy 8pcs of Hot & Crispy along with 12pcs of Hot Wings only at Tk.599",
+        "img": "https://i.ibb.co/CBWQ5Q5/Griled-legpeaces-special.jpg"
+    },
+    {
+        "_id": 5678943434512,
+        "name": "Pasta Special",
+        "price": "180",
+        "description": "The classics, like pasta carbonara and lasagna is available on hmefoodi. Also love a mash-up, and nothing works better than combining two Italian ideas into one. Pizza + lasagna? There’s no surprise that’s a match made in heaven. Mangia!",
+        "img": "https://i.ibb.co/B2LxVVx/Pasta-Special.jpg"
+    },
+    {
+        "_id": 6789670456734,
+        "name": "VMega Burgers",
+        "price": "100",
+        "description": " VMega Burgers are made from tasty seasoned soya protein they’re delicious and meat-free. Try one – you won’t believe your tastebuds! Please note: This product cannot be re-frozen. Vegan mega burgers are satisfying and full of flavour..",
+        "img": "https://i.ibb.co/fX6TRvR/Chicken-vegetable-burger.jpg"
+    },
+    {
+        "_id": 3456778823490,
+        "name": "The Desserts of Pakistan",
+        "price": "300",
+        "description": "Jalebi is one of the most popular desserts of Pakistan and is a spiraled dish. This crispy and crunchy dessert is dipped in sugar syrup and is loaded with flavors. It's now available on homefoodi",
+        "img": "https://i.ibb.co/yn5Nq7f/Jalebi-special.jpg"
+    }
+]
