@@ -3,8 +3,8 @@ import { Button, Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 const Category = ({inventory}) => {
-    const {_id, name, img, description, price} = inventory;
-    console.log(inventory);
+    const {_id, name, img, description, price, supplier, quantity} = inventory;
+    
     const navigate = useNavigate();
     const navegateToDetails = id =>{
         navigate(`/inventory/${id}`);
@@ -17,6 +17,12 @@ const Category = ({inventory}) => {
   <Card.Body>
     <Card.Title>{name}</Card.Title>
     <p>Price: {price}</p>
+    <Card.Text>
+    Quantity: {quantity}
+    </Card.Text>
+    <Card.Text>
+    Supplier: {supplier}
+    </Card.Text>
     <Card.Text>
     {description}
     </Card.Text>

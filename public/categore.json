@@ -1,44 +1,211 @@
 [
     {
-        "_id": 3456234567845,
-        "name": "Indian Spicy Mixed",
-        "price": "999",
-        "description": "hmefoodi offers a variety of Indian Mixed options, such as Fried Rice, Chicken Masala, Salmon Tacos, Shrimp & Grits, a Shrimp salad and Jumbo Shrimp. Ideal For Lunch and Dinner.",
-        "img": "https://i.ibb.co/ySBQfGQ/Spicy-Masala-Mixed.jpg"
+      "_id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    
+      "name": "Wooden Bed",
+      "supplier": "Otobi",
+      "price": 420,
+      "description": "The Bed is made of durable Veneered Engineered Wood that lasts longer and better withstands wear and tear. Frame & Floor Touch Material: Solid Mahogany Wood",
+      "img": "https://i.ibb.co/4jN3R2S/im.jpg",
+      "quantity": 50
     },
     {
-        "_id": 6784567893454,
-        "name": "Full Griled Chicken",
-        "price": "399",
-        "description": "If you're looking to pull out all the stops for an impressive barbecue, this grilled whole chicken is the answer. You are going to get: whole chicken that is perfectly juicy  crispy skin!",
-        "img": "https://i.ibb.co/vjm5myF/Full-griled-chicken.jpg"
+      "_id": "124e13b9-2d54-4b2f-a74d-a77b362d6rad",
+    
+      "name": "Office Table",
+      "supplier": "Khan & sons",
+      "price": 420,
+      "description":  "The product is made of the finest quality Laminated board. Best quality melamine paper is used to make furniture scratch-free and glossy",
+      "img": "https://i.ibb.co/pJ1m6WS/im2.jpg",
+      "quantity": 50
     },
     {
-        "_id": 4567893256145,
-        "name": "Leg Pices Special",
-        "price": "599",
-        "description": "The grilled chicken at homefoodi is available from now. Tuesday is always special for all chicken lovers! Enjoy 8pcs of Hot & Crispy along with 12pcs of Hot Wings only at Tk.599",
-        "img": "https://i.ibb.co/CBWQ5Q5/Griled-legpeaces-special.jpg"
+      "_id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    
+      "name": "Oven Rack",
+      "supplier": "Bangladesh Furniture",
+      "price": 420,
+      "description":  "Made of mild steel welded channel framework that ensure high load bearing - Zinc-phosphate coated electro-static epoxy powder oven baked paint finish",
+      "img": "https://i.ibb.co/L5P5brh/im3.jpg",
+      "quantity": 50
     },
     {
-        "_id": 5678943434512,
-        "name": "Pasta Special",
-        "price": "180",
-        "description": "The classics, like pasta carbonara and lasagna is available on hmefoodi. Also love a mash-up, and nothing works better than combining two Italian ideas into one. Pizza + lasagna? There’s no surprise that’s a match made in heaven. Mangia!",
-        "img": "https://i.ibb.co/B2LxVVx/Pasta-Special.jpg"
+      "_id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    
+      "name": "NAVANA Dining Chair",
+      "supplier": "Navana ",
+      "price": 420,
+      "description":  "The Dining Chair is made of durable Veneered Engineered Wood that lasts longer and better withstands wear and tear, 600-pound weight limit.",
+      "img": "https://i.ibb.co/kqqQzxn/im4.jpg",
+      "quantity": 50
     },
     {
-        "_id": 6789670456734,
-        "name": "VMega Burgers",
-        "price": "100",
-        "description": " VMega Burgers are made from tasty seasoned soya protein they’re delicious and meat-free. Try one – you won’t believe your tastebuds! Please note: This product cannot be re-frozen. Vegan mega burgers are satisfying and full of flavour..",
-        "img": "https://i.ibb.co/fX6TRvR/Chicken-vegetable-burger.jpg"
+      "_id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    
+      "name": "Lobby Chair",
+      "supplier": "Gazi Wood",
+      "price": 196,
+      "description":  "The Lobby Chair is made of comfortable and good quality Fabrics/Artificial leather. Best quality Super Soft Foam",
+      "img": "https://i.ibb.co/jrPcHMj/im5.jpg",
+      "quantity": 50
     },
     {
-        "_id": 3456778823490,
-        "name": "The Desserts of Pakistan",
-        "price": "300",
-        "description": "Jalebi is one of the most popular desserts of Pakistan and is a spiraled dish. This crispy and crunchy dessert is dipped in sugar syrup and is loaded with flavors. It's now available on homefoodi",
-        "img": "https://i.ibb.co/yn5Nq7f/Jalebi-special.jpg"
+      "_id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    
+      "name": "Dinner Wagon",
+      "supplier": "Regal",
+      "price": 245,
+      "description":  "The Dinner Wagon is made of durable Veneered Engineered Wood that lasts longer and better withstands wear and tear, 600-pound weight limit.",
+      "img": "https://i.ibb.co/Z1xGZGh/im6.jpg",
+      "shipping": 1,
+      "quantity": 50
+    },
+    {
+      "_id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    
+      "name": "Wooden Showcase",
+      "supplier": "PARTEX",
+      "price": 229,
+      "description":  "Sheesham Wood, 8 Doors, Open & Closed Storage, Color: Brown",
+      "img": "https://i.ibb.co/K0STDj5/im7.jpg",
+      "shipping": 32,
+      "quantity": 50
+    },
+    {
+      "_id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    
+      "name": "Showcase - Metro Furniture",
+      "supplier": "Metro Furniture",
+      "price": 81250,
+      "description":  "Solid Wooden Frame with Red Oak(Canada) & processed wood is used to ensure product's durability",
+      "img": "https://i.ibb.co/gSPqkMb/im8.jpg",
+      "shipping": 49,
+      "quantity": 50
+    },
+    {
+      "_id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    
+      "name": "Modway Pillow Office Chair",
+      "supplier": "HI-TECH Lifestyle & Furniture",
+      "price": 9999,
+      "description":  "Faux Leather cushion rolls along back. Powder Coated Steel Frame, Padded height adjustable arms Height adjustable chair",
+      "img": "https://i.ibb.co/tb69PTR/im9.jpg",
+      "shipping": 19,
+      "quantity": 50
+    },
+    {
+      "_id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    
+      "name": "Pillow Office Chair",
+      "supplier": "Brothers Furniture",
+      "price": 13329,
+      "description":  "Faux Leather cushion rolls along back. Powder Coated Steel Frame, Padded height adjustable arms Height adjustable chair",
+      "img": "https://i.ibb.co/wpfy8Bq/im10.jpg",
+      "shipping": 15,
+      "quantity": 50
+    },
+    {
+      "_id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+    
+      "name": "ZX 1K Office Chair",
+      "supplier": "RFL",
+      "price": 11111,
+      "description":  "Faux Leather cushion rolls along back. Powder Coated Steel Frame, Padded height adjustable arms Height adjustable chair",
+      "img": "https://i.ibb.co/s9ZWsFC/im11.jpg",
+      "shipping": 50,
+      "quantity": 50
+    },
+    {
+      "_id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+    
+      "name": "Reading Table RTH-301",
+      "supplier": "RFL",
+      "price": 13456,
+      "description":  "650 × 650 — Solid Wooden Frame with Red Oak(Canada) & processed wood is used to ensure product's durability. - Well seasoned and chemically treated wood ensures termite",
+      "img": "https://i.ibb.co/xHM04Xj/im12.jpg",
+      "shipping": 46,
+      "quantity": 50
+    },
+    {
+      "_id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+    
+      "name": "Cloth Hanger",
+      "supplier": "HATIL ",
+      "price": 4000,
+      "description":  "1200 × 1200 — Color : Black. Dimension : L-126.6 X W-66.7 X H-67.5 CM. Quantity : - +. Add to shopping cart. Payment: In Stock. Apprx.",
+      "img": "https://i.ibb.co/PWQ9TQQ/im13.jpg",
+      "shipping": 46,
+      "quantity": 50
+    },
+    
+    {
+      "_id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
+      "name": "Harper Laptop Table",
+      "supplier": "HATIL ",
+      "price": 4115,
+      "description":  "Best quality melamine paper is used to make furniture scratch-free and glossy.",
+      "img": "https://i.ibb.co/m9m8HS9/im14.jpg",
+      "shipping": 29,
+      "quantity": 50
+    },
+    {
+      "_id": "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
+      "name": "Dressing Table & Seater",
+      "supplier": "HATIL ",
+      "price": 3013,
+      "description":  "270 × 270 — Dressing Table Design: Find the latest & unique Wooden Dressing Table at Bestbuy.",
+      "img": "https://i.ibb.co/zSdyY5q/im15.jpg",
+      "shipping": 48,
+      "quantity": 50
+    },
+    
+    {
+      "_id": "e4220958-06d2-4d50-96fa-0163a563f43d",
+      "name": "Rocking Chair",
+      "supplier": "Authentic Furniture",
+      "price": 7700,
+      "description":  "Mild Steel Structure with Foam cushioning seat and back rest on ply wood ensures comforts and durability. - Semi rubber foam cushioning sea",
+      "img": "https://i.ibb.co/jvmfJ38/im17.jpg",
+      "shipping": 8,
+      "quantity": 50
+    },
+    {
+      "_id": "ae69f0e4-559c-4b24-8032-80b63f9b5073",
+      "name": "Rocking Chair",
+      "supplier": "Authentic Furniture",
+      "price": 5432,
+      "description":  "Mild Steel Structure with Foam cushioning seat and back rest on ply wood ensures comforts and durability. - Semi rubber foam cushioning sea",
+      "img": "https://i.ibb.co/6yfbZrN/im18.jpg",
+      "shipping": 27,
+      "quantity": 50
+    },
+    {
+      "_id": "dbf7ab3f-b383-4d95-8ab7-f55fcf6fa5f2",
+      "name": "Rocking Chair- Black",
+      "supplier": "Regal",
+      "price": 3121,
+      "description":  "Mild Steel Structure with Foam cushioning seat and back rest on ply wood ensures comforts and durability. - Semi rubber foam cushioning sea",
+      "img": "https://i.ibb.co/g6cxxjc/im19.jpg",
+      "shipping": 33,
+      "quantity": 50
+    },
+    {
+      "_id": "ed6a7ac3-7e67-4e3f-8461-bceb5178be42",
+      "name": "Signature Sleep Wall Bed",
+      "supplier": "Regal",
+      "price": 108,
+      "description":  "The Bed is made of durable Veneered Engineered Wood that lasts longer and better withstands wear and tear. Frame & Floor Touch Material: Solid Mahogany Wood",
+      "img": "https://i.ibb.co/wKKyk0N/im20.jpg",
+      "quantity": 50
+    },
+    {
+      "_id": "ed6a7ac3-7e67-4e3f-8461-bceb5178be42",
+      "name": "Rocking Chair- Red",
+      "supplier": "Noksha Furniture",
+      "price": 108,
+      "description":  "Mild Steel Structure with Foam cushioning seat and back rest on ply wood ensures comforts and durability. - Semi rubber foam cushioning sea",
+      "img": "https://i.ibb.co/TvJ1bMF/im16.jpg",
+      "quantity": 50
     }
+    
 ]
