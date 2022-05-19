@@ -16,6 +16,7 @@ import CategoryDetails from './Components/Pages/CategoryDetails/CategoryDetails'
 import RequireAuth from './Components/Pages/Login/RequireAuth/RequireAuth';
 import ManageInventory from './Components/Pages/ManageInventory/ManageInventory';
 import AddItems from './Components/Pages/AddItems/AddItems';
+import ManageItems from './Components/Pages/ManageItems/ManageItems';
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
         <Route path= 'additems' element={
         <RequireAuth>
           <AddItems></AddItems>
+        </RequireAuth>
+        }></Route>
+        <Route path= 'manageitems' element={
+        <RequireAuth>
+          <ManageItems></ManageItems>
         </RequireAuth>
         }></Route>
         <Route path='manageinventory' element ={<ManageInventory></ManageInventory>}></Route>
