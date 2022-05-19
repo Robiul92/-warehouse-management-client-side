@@ -6,9 +6,28 @@ import useItems from '../../../hooks/useItems';
 import useSingleItem from '../../../hooks/useSingleItem';
 
 
+
+
 const ManageItems = ({inventory}) => {
+    const [inventorys] = useItems();
    
     const {_id, name, img, description, price, supplier, quantity} = inventory;
+    
+    const handleDelete = id =>{
+        const proceed = window.confirm('Are you sure');
+        if (proceed){
+            const url = `http://localhost:5000/inventory/${id}`
+            console.log(url);
+            fetch (url, {
+                method: 'DELETE'
+            }) 
+            .then(res => res.json())
+            .then(data =>{
+                console.log(data);
+            })
+        }
+    }
+    
     
     return (
         <div className='container text-center'>
@@ -30,7 +49,7 @@ const ManageItems = ({inventory}) => {
                         <p>Price: {price} $</p>
                     </Card.Text>
                     <Button className='bg-danger m-4'  variant="primary">Delevered </Button>
-                    <Button className='bg-danger'  variant="primary">Delete</Button>
+                    <Button onClick={() => handleDelete(inventory._id)} className='bg-danger'  variant="primary">Delete</Button>
                 </Card.Body>
             </Card>
             </div>
