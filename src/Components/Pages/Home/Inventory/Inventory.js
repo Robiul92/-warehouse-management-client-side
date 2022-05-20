@@ -8,30 +8,32 @@ import './Inventory.css'
 const Inventory = () => {
     const [inventorys, setInventorys] = useState([]);
     const navigate = useNavigate();
-    useEffect(()=>{
+    useEffect(() => {
         fetch(`http://localhost:5000/inventory`)
-        .then(res =>res.json())
-        .then(data => setInventorys(data));
-    },[])
+            .then(res => res.json())
+            .then(data => setInventorys(data));
+    }, [])
 
-    const handleNavegate = () =>{
+    const handleNavegate = () => {
         navigate('/manageinventory')
     }
-        return (
+    return (
         <div>
             <h1 className='text-center text-danger fw-bold p-5'>Categories</h1>
             <div className='inventory-container'>
-            {
-                inventorys.slice(0, 6).map(inventory=><Category
-                    key={inventory._id}
-                    inventory={inventory}
-                
+                {
+                    inventorys.slice(0, 6).map(inventory => <Category
+                        key={inventory._id}
+                        inventory={inventory}
 
 
-                ></Category>)
-            }
-<button onClick={handleNavegate} className='btn btn-primary aling-items-center m-5'>Manage Inventory</button>
-            
+
+                    ></Category>)
+                }
+                <div className='text-center flex-end'>
+                    <button onClick={handleNavegate} className='btn btn-primary  m-3 text-center '>Manage Inventory</button>
+                </div>
+
             </div>
         </div>
     );

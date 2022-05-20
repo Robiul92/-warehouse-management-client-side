@@ -1,4 +1,5 @@
 import React from 'react';
+import BestSelling from '../../BestSelling/BestSelling';
 import MyLocation from '../../MyLocation/MyLocation';
 import Baneer from '../Banner/Baneer';
 import Inventory from '../Inventory/Inventory';
@@ -12,7 +13,7 @@ const Home = () => {
             <Baneer></Baneer>
             <SignIn></SignIn>
             <Inventory></Inventory>
-            <MyLocation></MyLocation>
+            <BestSelling></BestSelling>
 
             
             
