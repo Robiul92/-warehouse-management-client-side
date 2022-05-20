@@ -17,6 +17,9 @@ import RequireAuth from './Components/Pages/Login/RequireAuth/RequireAuth';
 import ManageInventory from './Components/Pages/ManageInventory/ManageInventory';
 import AddItems from './Components/Pages/AddItems/AddItems';
 import ManageItems from './Components/Pages/ManageItems/ManageItems';
+import Quantity from './Components/Pages/Quantity/Quantity';
+import QuantityDetails from './Components/Pages/Quantity/QuantityDetails/QuantityDetails';
+import Details from './Components/Pages/Details/Details';
 
 function App() {
   return (
@@ -42,7 +45,14 @@ function App() {
           <ManageItems></ManageItems>
         </RequireAuth>
         }></Route>
+        <Route path= '/quantity/:id' element={
+        <RequireAuth>
+          <Quantity></Quantity>
+        </RequireAuth>
+        }></Route>
+        <Route path='/quantity/' element ={<QuantityDetails></QuantityDetails>}></Route>
         <Route path='manageinventory' element ={<ManageInventory></ManageInventory>}></Route>
+        <Route path='/details/:id' element ={<Details></Details>}></Route>
         <Route path='/login' element={<Login></Login> } ></Route>
         <Route path={'/register'} element={<Register></Register> } ></Route>
         <Route path= '*' element={<NotFound></NotFound>}></Route>

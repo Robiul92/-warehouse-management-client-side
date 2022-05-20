@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const CategoryDetails = () => {
     const { categoryId } = useParams();
@@ -18,6 +19,31 @@ const CategoryDetails = () => {
     const navigate = useNavigate();
     const handleInventories = () => {
         navigate('/manageinventory')
+    }
+
+    const handleQuantity = e => {
+        
+        e.preventDefault();
+        const quantity = e.target.quantity.value - 1;
+        const updateQuantity = { quantity }
+        console.log(updateQuantity);
+        const url = `http://localhost:5000/inventory/${categoryId}`;
+        fetch(url, {
+            method: 'PUT',
+            body: JSON.stringify(
+                updateQuantity
+            ),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        })
+            .then(response => response.json())
+            .then(data => {
+                // setProducts(data)
+                toast('Product Deliverd Success')
+                console.log(data);
+
+            });
     }
 
     return (
@@ -38,7 +64,7 @@ const CategoryDetails = () => {
                         <Card.Text>
                             {description}
                         </Card.Text>
-                        {/* <Button variant="primary">Order Now: {name}</Button> */}
+                        
                     </Card.Body>
                 </Card>
             </div>

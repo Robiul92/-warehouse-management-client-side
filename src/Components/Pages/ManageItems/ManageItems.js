@@ -1,17 +1,26 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import useItems from '../../../hooks/useItems';
-import useSingleItem from '../../../hooks/useSingleItem';
+
 
 
 
 
 const ManageItems = ({inventory}) => {
+    const {id} = useParams();
     const [inventorys] = useItems();
+    const navigate = useNavigate();
    
     const {_id, name, img, description, price, supplier, quantity} = inventory;
+    
+    const handleUpdate = id =>{
+        navigate(`/quantity/${id}`);
+
+    }
+    
     
     const handleDelete = id =>{
         const proceed = window.confirm('Are you sure');
@@ -40,15 +49,15 @@ const ManageItems = ({inventory}) => {
                         {description}
                     </Card.Text>
                     <Card.Text>
-                        <p>Quantity: {quantity}</p>
+                        Quantity: {quantity}
                     </Card.Text>
                     <Card.Text>
                         <p>Supplier:{supplier}</p>
                     </Card.Text>
                     <Card.Text>
-                        <p>Price: {price} $</p>
+                        Price: {price} $
                     </Card.Text>
-                    <Button className='bg-danger m-4'  variant="primary">Delevered </Button>
+                    <Button onClick={() => handleUpdate(_id)} className='bg-danger m-4'  variant="primary">Update </Button>
                     <Button onClick={() => handleDelete(inventory._id)} className='bg-danger'  variant="primary">Delete</Button>
                 </Card.Body>
             </Card>

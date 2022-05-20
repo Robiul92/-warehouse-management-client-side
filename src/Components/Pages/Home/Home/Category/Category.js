@@ -29,6 +29,7 @@ const Category = ({inventory}) => {
     <Button className='bg-danger' onClick={() => navegateToDetails(_id)} variant="primary">Order Now: {name}</Button>
   </Card.Body>
 </Card>
+
         </div>
     );
 };
