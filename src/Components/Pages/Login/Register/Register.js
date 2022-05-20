@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import auth from '../../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin'
 
@@ -9,6 +10,7 @@ const Register = () => {
     const emailRef = useRef('');
     const passwordRef= useRef('');
     const location = useLocation();
+     
 
 
     let from = location.state?.from?.pathname || "/";
@@ -32,6 +34,8 @@ const Register = () => {
 
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
+        toast('Registation successful')
+        event.target.reset();
 
         createUserWithEmailAndPassword(email, password);
     }
