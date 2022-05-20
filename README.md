@@ -2,7 +2,7 @@
 
 # Website type: Funniture Warehouse
 # Website Title: The WareHouse
-# Website live link: 
+# Website live link: https://simple-warehouse.web.app/
 
 # Features and Functionality 
 
@@ -25,3 +25,5 @@
 9. React-bootstrap
 10. imgbb
 11. React-toastify
+12. Mongodb
+13. Nodemon
